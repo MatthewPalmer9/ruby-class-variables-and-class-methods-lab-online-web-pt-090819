@@ -46,7 +46,10 @@ class Song
     newHash = {}
     @@artists.each(){|artist|
       if newHash.include?(artist)
-        newHash[artist]
+        newHash[artist] += 1 
+      else 
+        newHash[artist] = 1 
+      end
     }
   end
 end 
