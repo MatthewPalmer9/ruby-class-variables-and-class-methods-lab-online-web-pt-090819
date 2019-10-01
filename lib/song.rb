@@ -41,4 +41,8 @@ class Song
     }
     newHash
   end
+  
+  def self.artist_count
+    
+  end
 end 
