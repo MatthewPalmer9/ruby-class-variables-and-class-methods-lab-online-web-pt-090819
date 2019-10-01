@@ -43,6 +43,10 @@ class Song
   end
   
   def self.artist_count
-    
+    newHash = {}
+    @@artists.each(){|artist|
+      if newHash.include?(artist)
+        newHash[artist]
+    }
   end
 end 
