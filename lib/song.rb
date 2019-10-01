@@ -51,5 +51,6 @@ class Song
         newHash[artist] = 1 
       end
     }
+    newHash
   end
 end 
